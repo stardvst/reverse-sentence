@@ -1,3 +1,30 @@
 # reverse-sentence
 
-a repo for my npm module
+Reverses the words of a sentence.
+
+## Install
+```sh
+npm install @lmanukyan/reverse-sentence
+```
+
+## API
+
+```js
+require("reverse-sentence") => Function
+reverse(sentence) => String
+```
+
+## Example
+```js
+const reverseSentence = require("reverse-sentence");
+
+const sentence = "Hello, world!";
+
+const reversed = reverseSentence(sentence);
+
+console.log(reversed);
+```
+
+## License
+
+MIT
