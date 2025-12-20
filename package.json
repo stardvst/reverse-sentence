@@ -16,7 +16,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/prettier --write ."
+    "lint": "./node_modules/.bin/prettier --write .",
+    "prepublish": "npm run lint && npm test"
   },
   "devDependencies": {
     "prettier": "3.7.4"
